@@ -1,3 +1,10 @@
 streamlit
 spacy
+<<<<<<< HEAD
 pymupdf
+=======
+pandas
+streamlit
+pymupdf
+spacy
+>>>>>>> b55464d566dc77a471b2f47aa18f52d286b60bba
