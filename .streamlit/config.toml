@@ -3,3 +3,8 @@ headless = true
 
 [runner]
 postInstall = "bash setup.sh"
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
