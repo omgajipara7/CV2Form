@@ -1,0 +1,8 @@
+[server]
+headless = true
+
+[theme]
+base = "light"
+
+[runner]
+postInstall = "bash setup.sh"
