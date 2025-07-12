@@ -1,5 +1,6 @@
 [server]
 headless = true
+<<<<<<< HEAD
 
 [runner]
 postInstall = "bash setup.sh"
@@ -9,3 +10,10 @@ headless = true
 port = 8501
 enableCORS = false
 port = 8501
+=======
+enableCORS = false
+port = 8501
+
+[runner]
+fastReruns = true
+>>>>>>> 663f5cb (⚙️ Rename setup.sh to streamlit.sh for Streamlit Cloud)
