@@ -1,10 +1,4 @@
 streamlit
-<<<<<<< HEAD
-pandas
-spacy
 pymupdf
-=======
 spacy
-pymupdf
 pandas
->>>>>>> 663f5cb (⚙️ Rename setup.sh to streamlit.sh for Streamlit Cloud)
