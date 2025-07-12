@@ -109,3 +109,10 @@ if uploaded_file is not None:
                                    "Skills": skills, "Education": education }])
         final_df.to_csv("resume_final_output.csv", index=False)
         st.success("🎉 Saved to 'resume_final_output.csv'")
+
+
+import os
+os.system("python -m spacy download en_core_web_sm")
+
+import spacy
+nlp = spacy.load("en_core_web_sm")
